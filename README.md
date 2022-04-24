@@ -35,6 +35,7 @@ In the year 2019, such material was published. Nuclear Atypia Grading in Histopa
 Another technique that employed BreakHis dataset was A Deep CNN Technique for Detection of Breast Cancer Using Histopathology Images.They also employ CNN, or convolutional neural networks, to differentiate between cancerous and benign images. Breast cancer is the most prevalent cancer diagnosed in women in the United States (excluding skin cancers), accounting for 30% of all new cancer diagnoses in women. Histopathology tries to differentiate between normal tissue, benign (benign) and malignant (carcinomas) abnormalities, as well as perform a prognosis evaluation. 
 
 *Dataset*
+
 There are a variety of histopathological imaging data sets that may be used with deep learning approaches to detect tumor tissue. We used the BreaKHis dataset, which consists of 9109 microscopic images of breast tumor tissue from 82 individuals using various magnification factors (40X,100X,200X,400X). It is divided into two types: benign and malignant. Tumor tissue is missing in benign tumors, but tumor tissue is present in malignant tumors. Figure 1 shows the structure of the BreaKHis Dataset.  There are now 2,480 benign and 5,429 malignant samples in the database (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format). This database was created in partnership with Parana, Brazil's P&D Laboratory - Pathological Anatomy and Cytopathology.
 
 
@@ -71,6 +72,7 @@ There is a wide range of optimizers available when training a resnet model. The 
 
 
 *IV. Future work and next steps of the project*
+
 Now that our model trained, we will be predicting which class of cancer it is and the model can be improved by changing some of the hyperparameters. We will even using different pretrained model such as Efficient Net, VGG16 and compare at the end to know which model improves the accuracy. Our future work involves deploying a website where a user can put his/her details and get a result based on image input.
 
 

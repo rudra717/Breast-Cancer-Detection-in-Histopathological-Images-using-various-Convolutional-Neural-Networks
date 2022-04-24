@@ -83,6 +83,6 @@ Load and preprocess the image dataset Train the image classifier on your dataset
 Use the trained classifier to predict image content
 
   1. Copy the repository link from GitHub Repository.
-  2. Open terminal and Git Clone respository link. You will see the downloaded project1_model.py in the folder.
-  3. Run project1_model.py in the terminal.
+  2. Open terminal and Git Clone respository link. You will see the downloaded project2.py in the folder.
+  3. Run project2.py in the terminal.
   4. .out file will be generated which will have the test and train accuracy in the same directory

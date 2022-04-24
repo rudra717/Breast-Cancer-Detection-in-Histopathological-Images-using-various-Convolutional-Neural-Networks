@@ -11,7 +11,7 @@ Project Members:
 Jasmine Batra - jb7854@nyu.edu, Sachin Karthik Kumar - sk9622@nyu.edu, Rudrasinh Nimeshkumar Ravalji - rnr8237@nyu.edu
 
 
-*Abstract* 
+***Abstract*** 
  
 Cancer is one of the world's most frequent and deadly diseases. One in every eight women and one in every eight hundred males is diagnosed with breast cancer. As a result, our first goal should be early cancer detection, as early detection can aid in the effective treatment of cancer. As a result, we present a saliency detection method based on sophisticated deep learning techniques, in which the machine is taught to mimic pathologists' movements for the localisation of diagnostically relevant regions. We use a CNN to train to identify diagnostic types of breast cancer (VGG16, EfficientNet, ResNet architecture). To train our model, we used the BreakHis dataset. In histopathology imaging, we focus on both detecting and classifying malignant areas. The ‘salient' areas are those that are diagnostically important. Pathologists and medical institutions will be able to use the detection technology as an open-source online application.
 

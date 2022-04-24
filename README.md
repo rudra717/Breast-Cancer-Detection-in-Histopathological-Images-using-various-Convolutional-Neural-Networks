@@ -39,6 +39,7 @@ There are a variety of histopathological imaging data sets that may be used with
 
 
 *Methodology*
+
 *I. What work done so far and what not*
 
 The Initial Stage of our project involved by uploading the dataset to google drive and running it on google collab. We couldn’t access the dataset from Grand Challenge website. We asked them for the access of the dataset, and they sent us the download link. After researching a bit, we went with the BreaKHis dataset, which was gathered in 2014 by P&D Lab in Brazil. The dataset that was provided to us had two folders benign and malignant images.  So, we spilt our data into train and valid. So, our dataset is prepared as dictionaries rather than list. This way we link images in our training process. With google collab, it was taking too much of processing power to prepare our training set given the number of images in our dataset.  This was the reason that we made our dataset available on our HPC Greene account. Thus, we were able to upload the data. We applied data augmentation on the data After that data got ready, so the next step to build and train the classifier so we decided used pretrained ResNet 152 to extract features for classification. The main merit of using ResNet 152 is that it produces better classification accuracies without increasing the complexity of the model. he proposed deep learning technique ResNet-152 is a useful and responsible approach in comparison to traditional methods In this work, ResNet-152 deep learning structure is used for feature extraction and classification. Compared to other network models, deeper ResNet have lower training errors, optimization, and generalization ability. It allows for very smooth. forward and backward propagation, making it much easier to optimize deeper models, and deeper address generalization. We tried training our model on different optimizers and different learning rates. We even tried to work on predicting the class of the cancer but due to some code errors we couldn’t execute that part.
@@ -74,6 +75,10 @@ Now that our model trained, we will be predicting which class of cancer it is an
 
 
 *Steps for running the program*
+
+The project is broken down into multiple steps:
+Load and preprocess the image dataset Train the image classifier on your dataset 
+Use the trained classifier to predict image content
 
   1. Copy the repository link from GitHub Repository.
   2. Open terminal and Git Clone respository link. You will see the downloaded project1_model.py in the folder.

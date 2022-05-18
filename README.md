@@ -105,4 +105,5 @@ we present a Resnet 18, Resnet34, Resnet 152 framework for more accurately and r
   2. Open terminal and Git Clone respository link. You will see the downloaded Resnet18.py, Resnet152.py, and Resnet34SGD.py in the folder.
   3. Download JSON file and Dataset[Output] from the below google link drive through NYU Mail account in the same folder.
   https://drive.google.com/drive/folders/1RbywUYfUEISZuGCyzBQNdS7Au4oyQ7Jr?usp=sharing
+  
   4.Run the code in HPC.

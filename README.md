@@ -93,20 +93,16 @@ Parameter value used during Training!
 
 
 
-*IV. Future work and next steps of the project*
+*IV. Conclusion*
 
-Now that our model trained, we will be predicting which class of cancer it is and the model can be improved by changing some of the hyperparameters. We will even using different pretrained model such as Efficient Net, VGG16 and compare at the end to know which model improves the accuracy. Our future work involves deploying a website where a user can put his/her details and get a result based on image input.
+we present a Resnet 18, Resnet34, Resnet 152 framework for more accurately and reliably detecting breast cancer patients from microscope pictures. The suggested framework is based on a feature extraction and transfer learning technique that allows several pre-trained CNN models to extract features independently and then combine them for the classification job. The model has been trained and tested on a variety of image datasets, both small and large. It is built in such a way that it can operate efficiently on a wide range of datasets. The experimental results show that our framework for different Resnet models achieves percent and 98 percent classification accuracy in the BreakHis and respectively, beating both individual CNN pretrained architectures and all other state-of-the-art models discovered in the literature. Furthermore, it performs well in recognizing cancerous pictures, boosting the likelihood of survival. Based on these positive results, we feel that our model would be an excellent option for assisting doctors in quickly diagnosing and detecting breast cancer.
 
 
-*Steps for running the program*
 
-The project is broken down into multiple steps:
-Load and preprocess the image dataset Train the image classifier on your dataset 
-Use the trained classifier to predict image content
+*Steps for Reproducing*
 
   1. Copy the repository link from GitHub Repository.
-  2. Open terminal and Git Clone respository link. You will see the downloaded XYZ in the folder.
-  3. Download JSON file and Dataset[Output] from the below google link drive.
+  2. Open terminal and Git Clone respository link. You will see the downloaded Resnet18.py, Resnet152.py, and Resnet34SGD.py in the folder.
+  3. Download JSON file and Dataset[Output] from the below google link drive through NYU Mail account in the same folder.
   https://drive.google.com/drive/folders/1RbywUYfUEISZuGCyzBQNdS7Au4oyQ7Jr?usp=sharing
-  4.Run the code 
-  
+  4.Run the code in HPC.

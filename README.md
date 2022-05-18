@@ -55,19 +55,12 @@ There is a wide range of optimizers available when training a resnet model. The 
 
 |		Resnet Model	  | Parameter |		Value	 |
 | ------------- | ------------- |	------------ |			
-| 		18 			|		 	Optimizer
-Learning Rate 
-Loss Function
-Batch size
-Epochs    		|			83.91		 |
-| 		   	  | 		0.01   		|			86.45		 |
-| 		  		|		 	0.001 		|			87.33		 |			
-| 		34		|		 	0.1    		|			81.68		 |
-| 			  | 		0.01   		|			85.79		 |
-| 				|		 	0.001			|			84.53		 |
-| 		152		  | 		0.1    		|			72.48		 |
-| 				|		 	0.01   		|			76.23		 |
-| 					|		 	0.001			|			79.52		 |
+| 		18 			|		 	Optimizer   		|			SGD		 |
+| 		   	  | 	 Learning Rate   		|			0.001	 |
+| 		  		|		 	Loss Function		|			Negative		 |			
+| 		34		|		  Batch Size    		|			32		 |
+| 			  | 		Epochs  		|			10		 |
+
 
 
 *IV. Future work and next steps of the project*

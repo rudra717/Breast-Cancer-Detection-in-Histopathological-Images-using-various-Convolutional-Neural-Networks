@@ -57,9 +57,19 @@ There is a wide range of optimizers available when training a resnet model. The 
 | ------------- | ------------- |	------------ |			
 | 		18 			|		 	Optimizer   		|			SGD		 |
 | 		   	  | 	 Learning Rate   		|			0.001	 |
-| 		  		|		 	Loss Function		|			Negative		 |			
-| 		34		|		  Batch Size    		|			32		 |
+| 		  		|		 	Loss Function		|			Negative Log Likelihood		 |			
+| 				|		  Batch Size    		|			32		 |
 | 			  | 		Epochs  		|			10		 |
+| 		50			|		 	Optimizer   		|			SGD		 |
+| 		   	  | 	 Learning Rate   		|			0.001	 |
+| 		  		|		 	Loss Function		|			Negative Log Likelihood		 |			
+| 				|		  Batch Size    		|			32		 |
+| 			  | 		Epochs  		|			10		 |
+| 		152 			|		 	Optimizer   		|			ADAM		 |
+| 		   	  | 	 Learning Rate   		|			0.001	 |
+| 		  		|		 	Loss Function		|			Cross Entropy Loss		 |			
+| 				|		  Batch Size    		|			32		 |
+| 			  | 		Epochs  		|			52	 |
 
 
 

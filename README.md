@@ -53,17 +53,21 @@ There is a wide range of optimizers available when training a resnet model. The 
 
 *III. Results*
 
-|		Optimizer	  | Learning rate |		Accuracy	 |
+|		Resnet Model	  | Parameter |		Value	 |
 | ------------- | ------------- |	------------ |			
-| 		SGD 			|		 	0.1    		|			83.91		 |
-| 		SGD   	  | 		0.01   		|			86.45		 |
-| 		SGD   		|		 	0.001 		|			87.33		 |			
-| 		RMSprop		|		 	0.1    		|			81.68		 |
-| 		RMSprop	  | 		0.01   		|			85.79		 |
-| 		RMSprop		|		 	0.001			|			84.53		 |
-| 		Adam		  | 		0.1    		|			72.48		 |
-| 		Adam			|		 	0.01   		|			76.23		 |
-| 		Adam			|		 	0.001			|			79.52		 |
+| 		18 			|		 	Optimizer
+Learning Rate 
+Loss Function
+Batch size
+Epochs    		|			83.91		 |
+| 		   	  | 		0.01   		|			86.45		 |
+| 		  		|		 	0.001 		|			87.33		 |			
+| 		34		|		 	0.1    		|			81.68		 |
+| 			  | 		0.01   		|			85.79		 |
+| 				|		 	0.001			|			84.53		 |
+| 		152		  | 		0.1    		|			72.48		 |
+| 				|		 	0.01   		|			76.23		 |
+| 					|		 	0.001			|			79.52		 |
 
 
 *IV. Future work and next steps of the project*

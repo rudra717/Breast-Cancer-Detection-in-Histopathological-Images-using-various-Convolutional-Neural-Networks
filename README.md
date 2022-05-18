@@ -53,6 +53,34 @@ There is a wide range of optimizers available when training a resnet model. The 
 
 *III. Results*
 
+Resnet 18
+
+|		Optimizer	  | Learning Rate |		Accuracy	 |
+| ------------- | ------------- |	------------ |			
+| 		Adam 			|		 	0.01   		|			89.66		 |
+| 	 SGD	   	  | 	 0.01   		|			90.465	 |
+| 		Adam  		|		 	0.001	|			96.474		 |			
+| 		SGD		|		  0.001   		|			96.955		 |
+
+Resnet 50
+
+|		Optimizer	  | Learning Rate |		Accuracy	 |
+| ------------- | ------------- |	------------ |			
+| 		Adam 			|		 	0.01   		|			96.38		 |
+| 	 SGD	   	  | 	 0.01   		|			97	 |
+| 		Adam  		|		 	0.001	|			94.792		 |			
+| 		SGD		|		  0.001   		|			97.67	 |
+
+Resnet 152
+
+|		Optimizer	  | Learning Rate |		Accuracy	 |
+| ------------- | ------------- |	------------ |			
+| 		Adam 			|		 	0.01   		|			76.23		 |
+| 	 SGD	   	  | 	 0.01   		|			86.45	 |
+| 		Adam  		|		 	0.001	|			79.52	 |			
+| 		SGD		|		  0.001   		|			87.33	 |
+
+
 |		Resnet Model	  | Parameter |		Value	 |
 | ------------- | ------------- |	------------ |			
 | 		18 			|		 	Optimizer   		|			SGD		 |
@@ -70,6 +98,9 @@ There is a wide range of optimizers available when training a resnet model. The 
 | 		  		|		 	Loss Function		|			Cross Entropy Loss		 |			
 | 				|		  Batch Size    		|			32		 |
 | 			  | 		Epochs  		|			52	 |
+
+
+
 
 
 

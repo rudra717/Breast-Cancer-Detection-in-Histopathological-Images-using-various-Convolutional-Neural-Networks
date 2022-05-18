@@ -53,6 +53,9 @@ There is a wide range of optimizers available when training a resnet model. The 
 
 *III. Results*
 
+For the Break His Dataset, Figure reflects the simulation result during the training the proposed Framework. One of the key hyperparameters to train a model is the optimizer function and the gradient loss function.  We implemented the Resnet 18, 34 and 152 with SGD and ADAM combines the key properties of Adagrad and RMSProp optimizer that can handle sparse gradient on a large dataset. The hyperparameters that we used for the training the model is presented in the Table.
+
+
 Resnet 18
 
 |		Optimizer	  | Learning Rate |		Accuracy	 |
@@ -79,6 +82,8 @@ Resnet 152
 | 	 SGD	   	  | 	 0.01   		|			86.45	 |
 | 		Adam  		|		 	0.001	|			79.52	 |			
 | 		SGD		|		  0.001   		|			87.33	 |
+
+Parameter value used during Training!
 
 
 |		Resnet Model	  | Parameter |		Value	 |
